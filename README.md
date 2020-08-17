@@ -1,5 +1,5 @@
 # Notes for building PHP docs from php-docs VM
-`ssh tiffany@10.0.37.151` to log into VM
+`ssh tiffany@10.0.37.151` to log into VM  
 TODO: change IP address to `10.11.0.something`
 
 may need to remount doc-en in VM if folder is empty on VM  
