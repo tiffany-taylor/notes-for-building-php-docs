@@ -4,10 +4,10 @@ ssh tiffany@10.0.37.151
 may need to remount doc-en in VM if folder is empty on VM  
 `sudo mount -t vboxsf doc-en ~/php-docs/doc-en`
 
-two folders in Windows, one is a github clone (D:\projects\php\doc-en) and the other is a shared folder with VM (D:\projects\php\php-docs)
+two folders in Windows, one is a github clone (`D:\projects\php\doc-en`) and the other is a shared folder with VM (`D:\projects\php\php-docs`)
 
-rendered-docs-xhtml is another shared folder where the rendered docs are output into and can be viewed in a web browser on host machine without loading a web server (kind of avoids broken link issue with built-in PHP web server that is a pervasive problem...)
-rendered-docs-xhtml may also need to be remounted...  
+`rendered-docs-xhtml` is another shared folder where the rendered docs are output into and can be viewed in a web browser on host machine without loading a web server (kind of avoids broken link issue with built-in PHP web server that is a pervasive problem...)
+`rendered-docs-xhtml` may also need to be remounted...  
 `sudo mount -t vboxsf rendered-docs-xhtml ~/rendered-docs-xhtml`
 
 to configure:
