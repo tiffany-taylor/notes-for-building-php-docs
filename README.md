@@ -9,7 +9,7 @@ two folders in Windows, one is a github clone (`D:\projects\php\doc-en`) and the
 
 processes  
 if making a PR with Github:  
-- modify files in `doc-en`, copy file to the shared folder with VM, then run configuration
+- modify files in `doc-en`, copy file to the shared folder with VM, then run configuration  
 if committing directly to SVN:
 - modify files inside `php-docs` directly, run configuration
 
