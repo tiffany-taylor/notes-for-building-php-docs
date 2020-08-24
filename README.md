@@ -21,7 +21,7 @@ if committing directly to SVN:
 to configure:
 ```
 cd ~
-php ~/php-docs/docs-en/doc-base/configure.php --enable-xml-details --disable-segfault-error
+php ~/php-docs/doc-en/doc-base/configure.php --enable-xml-details --disable-segfault-error
 ```
 
 to render:
